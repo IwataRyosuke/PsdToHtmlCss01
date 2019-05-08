@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'd-dinregular';
+    src: url('fonts/d-din-webfont.woff2') format('woff2'),
+         url('fonts/d-din-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf_pro_textsemibold';
+    src: url('fonts/sf-pro-text-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sf-pro-text-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-image: url('images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1125px;
+	height: 2434px;
+	margin: 0;
+}
+.clear{
+	clear: both;
+}
+.header{
+	margin-top: 53px;
+	margin-left: 87px;
+	margin-right: 44px;
+	margin-bottom: 124px;
+}
+#nav-left{
+	float: left;
+}
+#time{
+	display: inline-block;
+	font-size: 42px;
+	color: #ffffff;
+	font-family:  'sf_pro_textsemibold';
+}
+#nav-right{
+	float: right;
+}
+#title{
+	text-align: center;
+	font-size: 60px;
+	color: #7e8489;
+	margin-bottom: 157px;
+	font-family: 'sf_pro_textsemibold';
+}
+.sub{
+	margin-left: 99px;
+	margin-bottom: 115px;
+	font-family: 'd-dinregular';
+}
+
+#subtitle{
+	font-size: 117px;
+	color: #ffffff;
+	
+}
+#color-change{
+	color: #d8e0e6;
+}
+.contents{
+	font-family: 'd-dinregular';
+}
+#content-1{
+	float: left;
+	margin-left: 99px;
+}
+#content-2{
+	float: left;
+	margin-left: 199px;
+}
+
+#content-3{
+	float: left;
+	margin-left: 144px;
+}
+.content-title{
+	font-size: 36px;
+	margin-bottom: 21px;
+	color: #d8e0e6;
+}
+.number{
+	font-size: 70px;
+	color: #ffffff;
+	margin-bottom: 110px;
+
+}
+
+.startButton{
+	margin-bottom: 730px;
+	text-align: center;
+	position: relative;
+}
+#startEngine{
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-family: 'sf_pro_textsemibold';
+}
+.footer{
+	background-color: #f6f6f6;
+	height: 214px;
+	width: 100%;
+	position: relative;
+
+}
+#user{
+	float: left;
+	margin-top: 48px;
+	
+}
+
+#sun{
+	float: left;
+		margin-top: 48px;
+
+	
+}
+#location{
+	float: left;
+		margin-top: 48px;
+	
+}
+#settings{
+	float: left;
+		margin-top: 48px;	
+}
+
+#border{
+	border-bottom: 21px solid #c4c4c4;
+	width: 406px;
+	left: 50%;
+	 transform: translate(-50%, 0);
+	position: absolute;
+	border-radius: 7px;
+}
+.organize{
+	margin: 0 96px 46px 96px;
+}
